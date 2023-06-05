@@ -67,9 +67,13 @@ body {
 
 #divName {
     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: min-content;
 }
 
 #divName h1 {
+    padding: 20px;
     color: var(--color-lightblue);
     transition: 1s;
 }
