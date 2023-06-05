@@ -82,3 +82,25 @@ body {
 #divName h1:hover {
     color: var(--color-lightpink);
 }
+
+.bnt_icon_header {
+    margin: 0;
+    padding: 0;
+    /* display: none; */
+}
+
+#menuImg,
+#closemenuImg {
+    transition: .5s;
+    background-color: var(--color-lightblue);
+    height: 35px;
+    cursor: pointer;
+}
+
+#menuImg:hover {
+    background-color: var(--color-lightpink);
+}
+
+#closemenuImg {
+    background-color: transparent;
+}
