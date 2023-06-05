@@ -59,6 +59,21 @@ body {
     border-radius: 20%;
 }
 
-.mainContainer{
-    
+.mainContainer {
+    text-align: center;
+    padding-top: 5em;
+    transition: 1s;
+}
+
+#divName {
+    display: flex;
+}
+
+#divName h1 {
+    color: var(--color-lightblue);
+    transition: 1s;
+}
+
+#divName h1:hover {
+    color: var(--color-lightpink);
 }
