@@ -127,7 +127,9 @@ footer {
 }
 
 @media screen and (max-width: 650px) {
-
+    body {
+        background-image: url("./imagems/backSmall.jpg");
+    }
     #divName {
         display: block;
     }
@@ -140,14 +142,8 @@ footer {
         margin-right: 0;
     }
 
-    .mainContainer #about {
-        padding: 10px;
-    }
     .mainContainer section {
-        height: max-content;
         width: fit-content;
-        color: white;
-        padding: 25px;
-        padding-left: 100px;
+        padding: 15px;
     }
 }
