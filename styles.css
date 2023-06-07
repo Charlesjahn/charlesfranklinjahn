@@ -27,18 +27,6 @@ html::-webkit-scrollbar {
     color: white;
 }
 
-.mainContainer #home {
-    background-color: var(--color-black2);
-}
-
-.mainContainer #about {
-    background-color: var(--color-black1);
-}
-
-.mainContainer #projects {
-    background-color: var(--color-black2);
-}
-
 /* Name */
 #divName {
     display: flex;
@@ -76,6 +64,12 @@ html::-webkit-scrollbar {
 /* section */
 /* home */
 
+.mainContainer #home {
+    background-color: var(--color-black2);
+    padding: 25px;
+    padding-left: 100px;
+}
+
 /* section */
 /* about */
 
@@ -84,12 +78,18 @@ html::-webkit-scrollbar {
     padding: 25px;
     padding-left: 100px;
 }
-.mainContainer #about p{
+
+.mainContainer #about p {
     padding: 10px;
 }
 
 /* section */
 /* projects */
+.mainContainer #projects {
+    background-color: var(--color-black2);
+    padding: 25px;
+    padding-left: 100px;
+}
 
 /* Footer */
 footer {
@@ -109,10 +109,12 @@ footer {
 
     #divName h1,
     #myselfImage,
+    .subtitle,
     #first {
         margin-left: 0;
         margin-right: 0;
     }
+
     .mainContainer #about {
         padding: 10px;
     }
