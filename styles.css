@@ -1,14 +1,14 @@
 :root {
-    --color-white: #fff;
+    --color-white: rgb(233, 233, 233);
     --color-black1: rgb(14, 14, 14);
     --color-black2: rgb(41, 41, 41);
-    --color-grey: rgb(100, 100, 100);
+    --color-grey: rgb(175, 175, 175);
     --color-lightblue: rgb(200, 235, 255);
     --color-lightpink: rgb(253, 200, 255);
 
     --color-black1Trans: rgb(14, 14, 14, 0.5);
     --color-black2Trans: rgb(41, 41, 41, 0.5);
-    --color-greyTrans: rgb(100, 100, 100, 0.5);
+    --color-greyTrans: rgba(175, 175, 175, 0.5);
     --color-lightblueTrans: rgb(200, 235, 255, 0.5);
     --color-lightpinkTrans: rgb(253, 200, 255, 0.5);
 }
@@ -44,7 +44,7 @@ html::-webkit-scrollbar {
 
 .mainContainer section {
     height: max-content;
-    color: white;
+    color: var(--color-white);
     padding: 25px;
     padding-left: 100px;
     width: 750px;
@@ -142,5 +142,12 @@ footer {
 
     .mainContainer #about {
         padding: 10px;
+    }
+    .mainContainer section {
+        height: max-content;
+        width: fit-content;
+        color: white;
+        padding: 25px;
+        padding-left: 100px;
     }
 }
