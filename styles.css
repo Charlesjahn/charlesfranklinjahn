@@ -59,6 +59,9 @@ html::-webkit-scrollbar {
     margin-left: 20%;
 }
 
+.iconSocial{
+    width: 30px;
+}
 #myselfImage {
     /* margin-left: 180px; */
     margin-right: 20%;
