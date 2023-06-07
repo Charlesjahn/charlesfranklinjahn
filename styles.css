@@ -2,9 +2,9 @@
     --color-white: #fff;
     --color-black1: rgb(14, 14, 14);
     --color-black2: rgb(41, 41, 41);
+    --color-grey: rgb(100, 100, 100);
     --color-lightblue: rgb(200, 235, 255);
     --color-lightpink: rgb(253, 200, 255);
-    --color-white: rgb(14, 14, 14);
 }
 
 header::-webkit-scrollbar,
