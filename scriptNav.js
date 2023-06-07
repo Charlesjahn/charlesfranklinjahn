@@ -12,7 +12,7 @@ function sideBarOpenClose() {
     } else {
         navigationHeader.style.marginLeft = "-100vw";
         navigationHeader.style.animationName = "";
-        
+
         mainContainer.style.filter = "blur(0px)"
     }
 }
@@ -22,3 +22,9 @@ function sideBarClose() {
         sideBarOpenClose()
     }
 }
+
+window.addEventListener('resize', function (event) {
+    if (window.innerWidth > 770 && showSideBar) {
+        sideBarOpenClose()
+    }
+});
