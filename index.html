@@ -11,17 +11,17 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="bnt_icon_header">
+    <header class="header" id="header">
+        <button class="bnt_icon_header" onclick="sideBarOpenClose()">
             <img id="menuImg" src="./imagems/menu.png" alt="Menu">
-        </div>
-        
+        </button>
+
         <img id="logo_CJ" src="./imagems/logo.png" alt="Logo">
 
-        <nav class="nagivation_header">
-            <div class="bnt_icon_header">
+        <nav class="nagivation_header" id="nagivation_header">
+            <button class="bnt_icon_header" onclick="sideBarOpenClose()">
                 <img id="closemenuImg" src="./imagems/x.png" alt="Close Menu">
-            </div>
+            </button>
             <a href="#" class="actived">Home</a>
             <a href="#">About</a>
             <a href="#">Projects</a>
@@ -29,13 +29,16 @@
         </nav>
     </header>
 
-    <div class="mainContainer" id="mainContainer">
+    <div tabindex="0" class="mainContainer" id="mainContainer" onclick="sideBarClose()">
+        
         <div id="divName">
             <h1>Charles </h1>
             <h1>Franklin </h1>
             <h1>Jahn</h1>
         </div>
     </div>
+
+    <script src="scriptNav.js"></script>
 </body>
 
 </html>
