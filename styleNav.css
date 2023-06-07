@@ -21,7 +21,7 @@
 
 .header {
     background-color: var(--color-black2);
-    box-shadow: 1px 1px 4px --color-lightblue;
+    box-shadow: 1px 1px 4px var(--color-lightblue);
     height: 5.1em;
     justify-content: space-between;
     width: 100%;
@@ -73,7 +73,7 @@
     background-color: transparent;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 750px) {
     .bnt_icon_header {
         display: block;
     }
