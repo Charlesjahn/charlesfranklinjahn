@@ -5,6 +5,27 @@
     --color-grey: rgb(100, 100, 100);
     --color-lightblue: rgb(200, 235, 255);
     --color-lightpink: rgb(253, 200, 255);
+
+    --color-black1Trans: rgb(14, 14, 14, 0.5);
+    --color-black2Trans: rgb(41, 41, 41, 0.5);
+    --color-greyTrans: rgb(100, 100, 100, 0.5);
+    --color-lightblueTrans: rgb(200, 235, 255, 0.5);
+    --color-lightpinkTrans: rgb(253, 200, 255, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    /* background-color: var(--color-black1); */
+    background-image: url("/imagems/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-y: scroll;
 }
 
 header::-webkit-scrollbar,
@@ -13,21 +34,26 @@ html::-webkit-scrollbar {
 }
 
 .mainContainer {
-    display: block;
-    background-color: --color-black1;
     width: 100%;
     transition: 1s;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
 .mainContainer section {
-    width: 100%;
     height: max-content;
     color: white;
+    padding: 25px;
+    padding-left: 100px;
+    width: 750px;
+
 }
 
 /* Name */
 #divName {
+
     display: flex;
     align-items: center;
     text-align: center;
@@ -46,10 +72,6 @@ html::-webkit-scrollbar {
     color: var(--color-lightpink);
 }
 
-#first {
-    margin-left: 20%;
-}
-
 .iconSocial {
     width: 30px;
     padding: 10px;
@@ -62,12 +84,7 @@ html::-webkit-scrollbar {
     border-radius: 30px;
 }
 
-.mainContainer #about,
-#home,
-#projects {
-    padding: 25px;
-    padding-left: 100px;
-}
+/* section */
 
 .mainContainer #about p,
 #home p,
@@ -78,19 +95,23 @@ html::-webkit-scrollbar {
 /* section */
 /* home */
 .mainContainer #home {
-    background-color: var(--color-black2);
+    background-color: var(--color-black2Trans);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 /* section */
 /* about */
 .mainContainer #about {
-    background-color: var(--color-black1);
+    background-color: var(--color-black1Trans);
 }
 
 /* section */
 /* projects */
 .mainContainer #projects {
-    background-color: var(--color-black2);
+    background-color: var(--color-black2Trans);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 
 /* Footer */
@@ -101,6 +122,8 @@ footer {
     justify-content: center;
     width: 100%;
     height: 50px;
+    background-color: var(--color-black1);
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 650px) {
