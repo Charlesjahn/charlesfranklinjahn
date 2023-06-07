@@ -26,13 +26,16 @@ html::-webkit-scrollbar {
     height: max-content;
     color: white;
 }
-.mainContainer #home{
+
+.mainContainer #home {
     background-color: var(--color-black2);
 }
-.mainContainer #about{
+
+.mainContainer #about {
     background-color: var(--color-black1);
 }
-.mainContainer #projects{
+
+.mainContainer #projects {
     background-color: var(--color-black2);
 }
 
@@ -58,17 +61,38 @@ html::-webkit-scrollbar {
     margin-left: 20%;
 }
 
-.iconSocial{
+.iconSocial {
     width: 30px;
     padding: 10px;
 }
+
 #myselfImage {
     margin-left: 180px;
     width: 100px;
     height: 150px;
     border-radius: 30px;
 }
-footer{
+
+/* section */
+/* home */
+
+/* section */
+/* about */
+
+.mainContainer #about {
+    background-color: var(--color-black1);
+    padding: 25px;
+    padding-left: 100px;
+}
+.mainContainer #about p{
+    padding: 10px;
+}
+
+/* section */
+/* projects */
+
+/* Footer */
+footer {
     display: inline-flex;
     align-items: center;
     text-align: center;
@@ -88,5 +112,8 @@ footer{
     #first {
         margin-left: 0;
         margin-right: 0;
+    }
+    .mainContainer #about {
+        padding: 10px;
     }
 }
