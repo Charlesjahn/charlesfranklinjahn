@@ -16,7 +16,6 @@ html::-webkit-scrollbar {
     display: block;
     background-color: --color-black1;
     width: 100%;
-    padding-top: 2em;
     transition: 1s;
 
 }
@@ -33,6 +32,8 @@ html::-webkit-scrollbar {
     align-items: center;
     text-align: center;
     height: max-content;
+    padding-bottom: 2em;
+    padding-top: 2em;
 }
 
 #divName h1 {
@@ -61,34 +62,35 @@ html::-webkit-scrollbar {
     border-radius: 30px;
 }
 
-/* section */
-/* home */
-
-.mainContainer #home {
-    background-color: var(--color-black2);
+.mainContainer #about,
+#home,
+#projects {
     padding: 25px;
     padding-left: 100px;
+}
+
+.mainContainer #about p,
+#home p,
+#projects p {
+    padding: 10px;
+}
+
+/* section */
+/* home */
+.mainContainer #home {
+    background-color: var(--color-black2);
 }
 
 /* section */
 /* about */
-
 .mainContainer #about {
     background-color: var(--color-black1);
-    padding: 25px;
-    padding-left: 100px;
-}
-
-.mainContainer #about p {
-    padding: 10px;
 }
 
 /* section */
 /* projects */
 .mainContainer #projects {
     background-color: var(--color-black2);
-    padding: 25px;
-    padding-left: 100px;
 }
 
 /* Footer */
