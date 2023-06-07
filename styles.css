@@ -1,16 +1,18 @@
 :root {
     --color-white: rgb(233, 233, 233);
+    --color-darkBlue: rgb(2, 19, 35);
     --color-black1: rgb(14, 14, 14);
     --color-black2: rgb(41, 41, 41);
     --color-grey: rgb(175, 175, 175);
-    --color-lightblue: rgb(200, 235, 255);
-    --color-lightpink: rgb(253, 200, 255);
+    --color-lightblue: rgb(76, 162, 244);
+    --color-lightpink: rgb(248, 78, 146);
 
+    --color-darkBlueTrans: rgb(2, 19, 35, 0.5);
     --color-black1Trans: rgb(14, 14, 14, 0.5);
     --color-black2Trans: rgb(41, 41, 41, 0.5);
     --color-greyTrans: rgba(175, 175, 175, 0.5);
-    --color-lightblueTrans: rgb(200, 235, 255, 0.5);
-    --color-lightpinkTrans: rgb(253, 200, 255, 0.5);
+    --color-lightblueTrans: rgb(76, 162, 244, 0.5);
+    --color-lightpinkTrans: rgb(248, 78, 146, 0.5);
 }
 
 * {
@@ -34,6 +36,7 @@ html::-webkit-scrollbar {
 }
 
 .mainContainer {
+    margin-top: 5.1em;
     width: 100%;
     transition: 1s;
     display: inline-flex;
@@ -71,8 +74,9 @@ html::-webkit-scrollbar {
 }
 
 .iconSocial {
+    align-items: center;
     width: 30px;
-    padding: 10px;
+    padding: 0 10px ;
 }
 
 #myselfImage {
@@ -119,8 +123,7 @@ footer {
     justify-content: center;
     width: 100%;
     height: 50px;
-    background-color: var(--color-black1);
-    margin-bottom: 0;
+    background-color: var(--color-darkBlue);
 }
 
 @media screen and (max-width: 750px) {
