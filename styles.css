@@ -16,12 +16,27 @@ html::-webkit-scrollbar {
     display: block;
     background-color: --color-black1;
     width: 100%;
-    height: 100vw;
-    padding-top: 5em;
+    padding-top: 2em;
     transition: 1s;
 
 }
 
+.mainContainer section {
+    width: 100%;
+    height: max-content;
+    color: white;
+}
+.mainContainer #home{
+    background-color: var(--color-black2);
+}
+.mainContainer #about{
+    background-color: var(--color-black1);
+}
+.mainContainer #projects{
+    background-color: var(--color-black2);
+}
+
+/* Name */
 #divName {
     display: flex;
     align-items: center;
