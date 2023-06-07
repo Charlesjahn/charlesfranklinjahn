@@ -23,15 +23,15 @@ html::-webkit-scrollbar {
 }
 
 #divName {
-    height: 150px;
     display: flex;
+    align-items: center;
     text-align: center;
     justify-content: space-between;
+    height: max-content;
 }
 
 #divName h1 {
-    height: 150px;
-    padding: 0 20px;
+    padding: 20px;
     color: var(--color-lightblue);
     transition: 1s;
 }
@@ -47,6 +47,7 @@ html::-webkit-scrollbar {
 #myselfImage {
     /* margin-left: 180px; */
     margin-right: 20%;
+    width: 100px;
     height: 150px;
     border-radius: 30px;
 }
