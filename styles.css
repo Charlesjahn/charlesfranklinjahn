@@ -6,3 +6,61 @@
     --color-lightpink: rgb(253, 200, 255);
     --color-white: rgb(14, 14, 14);
 }
+
+header::-webkit-scrollbar,
+html::-webkit-scrollbar {
+    width: 0;
+}
+
+.mainContainer {
+    display: block;
+    background-color: --color-black1;
+    width: 100%;
+    height: 100vw;
+    padding-top: 5em;
+    transition: 1s;
+
+}
+
+#divName {
+    height: 150px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#divName h1 {
+    height: 150px;
+    padding: 0 20px;
+    color: var(--color-lightblue);
+    transition: 1s;
+}
+
+#divName h1:hover {
+    color: var(--color-lightpink);
+}
+
+#first {
+    margin-left: 20%;
+}
+
+#myselfImage {
+    /* margin-left: 180px; */
+    margin-right: 20%;
+    height: 150px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 650px) {
+
+    #divName {
+        display: block;
+    }
+
+    #divName h1,
+    #myselfImage,
+    #first {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
