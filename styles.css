@@ -35,23 +35,6 @@ html::-webkit-scrollbar {
     width: 0;
 }
 
-.mainContainer {
-    margin-top: 5.1em;
-    width: 100%;
-    transition: 1s;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.mainContainer section {
-    height: max-content;
-    color: var(--color-white);
-    padding: 25px;
-    width: 700px;
-
-}
 
 /* Name */
 #divName {
@@ -76,7 +59,7 @@ html::-webkit-scrollbar {
 .iconSocial {
     align-items: center;
     width: 30px;
-    padding: 0 10px ;
+    padding: 0 10px;
 }
 
 #myselfImage {
@@ -86,11 +69,36 @@ html::-webkit-scrollbar {
 }
 
 /* section */
+.mainContainer {
+    margin-top: 5.1em;
+    width: 100%;
+    transition: 1s;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mainContainer section {
+    height: max-content;
+    color: var(--color-white);
+    padding: 25px;
+    width: 700px;
+
+}
 
 .mainContainer #about p,
 #home p,
 #projects p {
     padding: 10px;
+}
+
+.mainContainer #about h1,
+#home h1,
+#projects h1 {
+    font-size: medium;
+    padding: 10px 0;
+    color: var(--color-lightblue);
 }
 
 /* section */
@@ -99,8 +107,14 @@ html::-webkit-scrollbar {
     background-color: var(--color-black2Trans);
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+    display: flex;
+    justify-content: space-evenly;
 }
-
+.mainContainer .skill {
+    text-align: center;
+    height: fit-content;
+    width: 350px;
+}
 /* section */
 /* about */
 .mainContainer #about {
@@ -130,9 +144,11 @@ footer {
     * {
         font-family: 'Pixel Emulator', sans-serif;
     }
+
     body {
         background-image: url("./imagems/backSmall.jpg");
     }
+
     #divName {
         display: block;
     }
