@@ -16,10 +16,10 @@
 
 .singleSkill {
     position: relative;
-    /* display: -webkit-flex;
+    display: -webkit-flex;
     display: -moz-fex;
     display: -ms-flex;
-    display: -o-flex; */
+    display: -o-flex;
     display: flex;
     justify-content: space-between;
     margin: 0 1rem;
