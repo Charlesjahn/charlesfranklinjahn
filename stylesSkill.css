@@ -1,5 +1,6 @@
 :root {
     --color-white: rgb(233, 233, 233);
+    --color-grey: rgb(175, 175, 175);
     --color-shineblue: rgb(77, 255, 255);
     --color-lightpinkTrans: rgb(248, 78, 146, 0.75);
 }
@@ -31,14 +32,17 @@
     text-transform: uppercase;
 }
 
-.bar {
+.bar, .shadwon_bar {
     position: absolute;
     bottom: -.75rem;
     height: .25rem;
     background-color: var(--color-lightpinkTrans);
     transition: .4s;
 }
-
+.shadwon_bar{
+    background-color: var(--color-grey);
+    width: 100%;
+}
 .bar:hover {
     background-color: var(--color-shineblue);
 }
@@ -87,6 +91,7 @@
         margin-right: auto;
     }
     .home_section img {
-        display: none;
+        height: 25px;
+        /* display: none; */
     }
 }
