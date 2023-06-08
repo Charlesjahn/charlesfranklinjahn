@@ -150,7 +150,8 @@ footer {
     }
 
     #divName {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
     #divName h1,
