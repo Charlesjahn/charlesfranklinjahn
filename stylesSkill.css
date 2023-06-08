@@ -87,7 +87,6 @@
         margin-right: auto;
     }
     .home_section img {
-        height: 25px;
-        padding: 1px;
+        display: none;
     }
 }
