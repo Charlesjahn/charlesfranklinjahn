@@ -44,6 +44,7 @@
     width: 100%;
 }
 .bar:hover {
+    cursor: pointer;
     background-color: var(--color-shineblue);
 }
 
