@@ -23,7 +23,7 @@
 
 body {
     /* background-color: var(--color-black1); */
-    background-image: url("./imagems/back.jpg");
+    background-image: url("../imagems/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
