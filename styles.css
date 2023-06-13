@@ -137,6 +137,8 @@ html::-webkit-scrollbar {
     text-decoration: none;
     color:  var(--color-white);
     transition: .8s;
+    
+    margin: 10px;
 }
 .listProjects a:hover{
     color:  var(--color-lightpink);
@@ -178,9 +180,5 @@ footer {
     .mainContainer section {
         width: fit-content;
         padding: 15px;
-    }
-    .projects_section a{
-        margin: 10px;
-
     }
 }
