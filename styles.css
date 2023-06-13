@@ -179,4 +179,8 @@ footer {
         width: fit-content;
         padding: 15px;
     }
+    .projects_section a{
+        margin: 10px;
+
+    }
 }
