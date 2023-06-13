@@ -1,0 +1,54 @@
+:root {
+    --color-white: rgb(233, 233, 233);
+    --color-darkBlue: rgb(2, 19, 35);
+    --color-black1: rgb(14, 14, 14);
+    --color-black2: rgb(41, 41, 41);
+    --color-grey: rgb(175, 175, 175);
+    --color-lightblue: rgb(76, 162, 244);
+    --color-lightpink: rgb(248, 78, 146);
+
+    --color-whiteTrans: rgb(233, 233, 233, 0.5);
+    --color-darkBlueTrans: rgb(2, 19, 35, 0.5);
+    --color-black1Trans: rgb(14, 14, 14, 0.5);
+    --color-black2Trans: rgb(41, 41, 41, 0.5);
+    --color-greyTrans: rgba(175, 175, 175, 0.5);
+    --color-lightblueTrans: rgb(76, 162, 244, 0.5);
+    --color-lightpinkTrans: rgb(248, 78, 146, 0.5);
+}
+
+.clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 4px 7px rgba(255, 255, 255, 0.5);
+    width: 270px;
+    height: 110px;
+    margin: 8px 0px;
+}
+
+.clock div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 95px;    
+    border-radius: 5px;
+    background-color:  var(--color-black1);
+    color: var(--color-white);
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+
+}
+.clock div:hover{
+    
+    color: var(--color-lightblue);
+}
+.clock .clockDisplay{
+    font-size: 45px;
+}
+.clock .time{
+    font-size: 15px;
+}
