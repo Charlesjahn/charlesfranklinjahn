@@ -127,6 +127,19 @@ html::-webkit-scrollbar {
     background-color: var(--color-black2Trans);
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    
+}
+.projects_section .listProjects{
+    display: flex;
+    justify-content: space-around;
+}
+.listProjects a{
+    text-decoration: none;
+    color:  var(--color-white);
+    transition: .8s;
+}
+.listProjects a:hover{
+    color:  var(--color-lightpink);
 }
 
 /* Footer */
