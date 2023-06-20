@@ -47,8 +47,8 @@ html::-webkit-scrollbar {
 }
 
 #divName h1 {
-    padding: 20px;
-    color: var(--color-lightblue);
+    padding: 10px;
+    color: var(--color-white);
     transition: 1s;
 }
 
