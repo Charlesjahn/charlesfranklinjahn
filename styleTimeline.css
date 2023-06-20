@@ -1,0 +1,81 @@
+:root {
+    --color-white: rgb(233, 233, 233);
+    --color-darkBlue: rgb(2, 19, 35);
+    --color-black1: rgb(14, 14, 14);
+    --color-black2: rgb(41, 41, 41);
+    --color-grey: rgb(175, 175, 175);
+    --color-lightblue: rgb(76, 162, 244);
+    --color-lightpink: rgb(248, 78, 146);
+
+    --color-darkBlueTrans: rgb(2, 19, 35, 0.5);
+    --color-black1Trans: rgb(14, 14, 14, 0.5);
+    --color-black2Trans: rgb(41, 41, 41, 0.5);
+    --color-greyTrans: rgba(175, 175, 175, 0.5);
+    --color-lightblueTrans: rgb(76, 162, 244, 0.5);
+    --color-lightpinkTrans: rgb(248, 78, 146, 0.5);
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: var(--color-white);
+}
+
+body::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.mainDivTL {
+    position: relative;
+    top: 5.1em;
+    padding: 2em;
+}
+
+.mainDivTL h1 {
+    margin: 0.3em;
+    font-size: 3em;
+}
+
+.mainDivTL h2 {
+    margin-bottom: 0.5em;
+}
+
+.mainDivTL .title {
+    text-align: center;
+}
+
+.mainDivTL .title p {
+    font-size: 1.3em;
+}
+
+.mainDivTL .timeline {
+    margin: 5em auto;
+    max-width: 34.14em;
+}
+
+.mainDivTL .checkPoint {
+    max-width: 34em;
+    padding: 2em 0;
+    position: relative;
+}
+
+.checkPoint div {
+    border: 2px solid var(--color-lightblueTrans);
+    box-shadow: 0px 4px 7px var(--color-lightblueTrans);
+    border-radius: 1.2em;
+    padding: 1.5em;
+    transition: 0.3s;
+}
+
+.checkPoint div:hover {
+    border: 2px solid var(--color-lightpinkTrans);
+    box-shadow: 0px 4px 7px var(--color-lightpinkTrans);
+}
