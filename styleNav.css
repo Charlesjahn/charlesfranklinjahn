@@ -46,11 +46,7 @@
     transition: .6s;
 }
 
-.nagivation_header :hover {
-    color: var(--color-lightpink);
-}
-
-.actived {
+.nagivation_header a:hover {
     background-color: var(--color-black1);
     color: var(--color-lightpink);
     padding: 0.5rem;
