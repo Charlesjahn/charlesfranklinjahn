@@ -80,6 +80,7 @@ body {
 }
 
 .checkPoint div {
+    background-color: rgb(0, 0, 0, 0.4);
     border: 2px solid var(--color-lightblueTrans);
     box-shadow: 0px 4px 7px var(--color-lightblueTrans);
     border-radius: 1.2em;
