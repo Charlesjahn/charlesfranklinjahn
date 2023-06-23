@@ -39,6 +39,11 @@ body {
     position: fixed;
 }
 
+html::-webkit-scrollbar,
+html::-webkit-scrollbar {
+    width: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -141,6 +146,7 @@ body {
     transform: translateY(-50%);
     border-radius: 50%;
 }
+
 .checkPoint:nth-child(odd) div::before {
     left: -0.5em;
 }
